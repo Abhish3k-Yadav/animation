@@ -1,0 +1,35 @@
+#cont{
+    height: 300px;
+    width: 700px;
+    background-color: plum;
+
+    /* animation-name: anim;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; */
+
+    animation: anim 2s ease-in-out 0.5s
+     infinite alternate forwards;
+}
+
+
+@keyframes anim{
+    0% {
+        font-size: 5px;
+        background-color: aquamarine;
+        color: rgb(101, 26, 214);
+    }
+    50%{
+        font-size: 15px;
+        background-color: fuchsia;
+        color: greenyellow;
+    }
+    
+    100%{
+        font-size: 25px;
+        background-color: rgb(0, 132, 255);
+        color: rgb(255, 123, 47);
+    }
+}
